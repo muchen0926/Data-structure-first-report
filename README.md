@@ -27,7 +27,7 @@ remove(item) 刪除一個節點
 
 search(item) 查找節點是否存在
 
-##具體代碼:
+## 具體代碼:
 
     class Node(object):
     """ 節點 """
