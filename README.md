@@ -20,13 +20,14 @@ remove(item) 刪除一個節點
 search(item) 查找節點是否存在
 
 ##具體代碼:
+
     class Node(object):
     """ 節點 """
     def __init__(self, item):
         self.item = item
         self.next = None
 
-class SinCycLinkedlist(object):
+    class SinCycLinkedlist(object):
     """單向循環鏈表"""
     def __init__(self):
         self._head = None
@@ -160,18 +161,18 @@ class SinCycLinkedlist(object):
             cur = cur.next
         return False
 
-if __name__ == "__main__":
-    ll = SinCycLinkedlist()
-    ll.add(1)
-    ll.add(2)
-    ll.append(3)
-    ll.insert(2, 4)
-    ll.insert(4, 5)
-    ll.insert(0, 6)
-    print("length:", ll.length())
-    ll.travel()
-    print(ll.search(3))
-    print(ll.search(7))
-    ll.remove(1)
-    print("length:", ll.length())
-    ll.travel()
+    if __name__ == "__main__":
+        ll = SinCycLinkedlist()
+        ll.add(1)
+        ll.add(2)
+        ll.append(3)
+        ll.insert(2, 4)
+        ll.insert(4, 5)
+        ll.insert(0, 6)
+        print("length:", ll.length())
+        ll.travel()
+        print(ll.search(3))
+        print(ll.search(7))
+        ll.remove(1)
+        print("length:", ll.length())
+        ll.travel()
