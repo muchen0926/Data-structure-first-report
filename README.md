@@ -185,4 +185,4 @@ search(item) 查找節點是否存在
         print("length:", ll.length())
         ll.travel()
 ## 運行結果
-![01](螢幕擷取畫面 2024-08-01 154410.png)
+![01](https://github.com/muchen0926/Data-structure-first-report/blob/3ebf083ca5aa5d79a8320aa3c0fe176e5540fc9b/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-08-01%20154410.png)
