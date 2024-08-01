@@ -185,4 +185,4 @@ search(item) 查找節點是否存在
         print("length:", ll.length())
         ll.travel()
 ## 運行結果
-![01]()
+![01](螢幕擷取畫面 2024-08-01 154410.png)
