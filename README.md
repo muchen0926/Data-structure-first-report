@@ -184,3 +184,5 @@ search(item) 查找節點是否存在
         ll.remove(1)
         print("length:", ll.length())
         ll.travel()
+## 運行結果
+![01]()
