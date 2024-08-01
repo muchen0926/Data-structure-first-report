@@ -10,13 +10,21 @@ Python實現的單向循環鍊表功能示例
 由圖可知，單向循環鍊錶的判斷條件不再是表為空了，而變成了是否到表頭。
 
 ## 操作
+
 is_empty() 判斷鍊錶是否為空
+
 length() 傳回鍊錶的長度
+
 travel() 遍歷
+
 add(item) 在頭部新增一個節點
+
 append(item) 在尾部增加一個節點
+
 insert(pos, item) 在指定位置pos新增節點
+
 remove(item) 刪除一個節點
+
 search(item) 查找節點是否存在
 
 ##具體代碼:
